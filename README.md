@@ -10,7 +10,7 @@ STS-MQTT-in node subscribes to a specified topic on STS-MQTT. If correct user cr
 
 In the Topic field, enter `users/{username}/{topic name}` to subscribe. For example, if user Tom would like to subscribes to topic "temperatureSensor", he would enter `users/tom/temperatureSensor` in the topic field.
 
-Note: Please ensure that the username, client ID, topic all exist on [STS-MQTT](http://test-mqtt.sensetecnic.com).  
+Note: Please ensure that the username, client ID, topic all exist on [STS-MQTT](https://mqtt.sensetecnic.com).  
 
 ### STS-MQTT-out node
 
@@ -18,6 +18,4 @@ STS-MQTT-out node publishes to a specified topic on STS-MQTT. If correct user cr
 
 In the Topic field, enter `users/{username}/{topic name}` to subscribe. For example, if user Tom would like to subscribes to topic "temperatureSensor", he would enter `users/tom/temperatureSensor` in the topic field.
 
-Note: Please ensure that the username, client ID, topic all exist on [STS-MQTT](http://test-mqtt.sensetecnic.com).
-
-Note: To enable the secret config options in sts-mqtt-broker node, select the username field, and press shift button 16 times. The config options for server url, port and tls settings will pop up.
+Note: Please ensure that the username, client ID, topic all exist on [STS-MQTT](https://mqtt.sensetecnic.com).
