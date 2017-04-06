@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-mqtt-node",
-  "version": "0.0.2",
+  "name": "node-red-contrib-sts-mqtt",
+  "version": "0.0.3",
   "description": "mqtt node for STS-MQTT service",
   "contributors": [
     {
