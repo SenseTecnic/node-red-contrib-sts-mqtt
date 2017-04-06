@@ -1,0 +1,40 @@
+{
+  "name": "node-red-contrib-mqtt-node",
+  "version": "0.0.2",
+  "description": "mqtt node for STS-MQTT service",
+  "contributors": [
+    {
+    "name": "Michael Qiu"
+    },    {
+      "name": "Nick O'Leary"
+    },
+    {
+      "name": "Dave Conway-Jones"
+    }
+  ],
+  "dependencies": {
+    "mqtt": "1.13.0",
+    "is-utf8": "0.2.1"
+  },
+  "keywords": [
+    "node-red",
+    "mqtt",
+    "sts-mqtt"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "node-red": {
+    "nodes": {
+      "sts-mqtt-node":"sts-mqtt-node.js"
+    }
+  },
+  "maintainers": [
+    {
+      "name": "Michael Qiu",
+      "email": "mqiu@sensetecnic.com"
+    }
+  ]
+}

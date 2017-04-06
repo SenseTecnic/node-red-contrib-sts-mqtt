@@ -1,0 +1,66 @@
+{
+    "common": {
+        "label": {
+            "payload": "Payload",
+            "topic": "Topic",
+            "name": "Name",
+            "username": "Username",
+            "client-key":"Client Key"
+        },
+        "status": {
+            "connected": "connected",
+            "not-connected": "not connected",
+            "disconnected": "disconnected",
+            "connecting": "connecting",
+            "error": "error",
+            "ok": "OK"
+        },
+        "notification": {
+            "error": "<strong>Error</strong>: __message__",
+            "errors": {
+                "not-deployed": "node not deployed",
+                "no-response": "no response from server",
+                "unexpected": "unexpected error (__status__) __message__"
+            }
+        },
+        "errors": {
+            "nooverride": "Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props"
+        }
+    },
+
+    "mqtt": {
+        "label": {
+            "broker": "Server",
+            "qos": "QoS",
+            "clientid": "Client ID",
+            "port": "Port",
+            "setup-birth-msg": "Set up Birth Message",
+            "setup-will-msg": "Set up Will Message",
+            "use-tls": "Enable secure (SSL/TLS) connection"
+        },
+        "tabs-label": {
+            "connection": "Connection",
+            "advanced": "Advanced"
+        },
+        "placeholder": {
+            "clientid": "Enter the client ID you have setup",
+            "will-topic": "",
+            "birth-topic": ""
+        },
+        "state": {
+            "connected": "Connected to broker: __broker__",
+            "disconnected": "Disconnected from broker: __broker__",
+            "connect-failed": "Connection failed to broker: __broker__"
+        },
+        "retain": "Retain",
+        "true": "true",
+        "false": "false",
+        "errors": {
+            "not-defined": "topic not defined",
+            "missing-config": "missing broker configuration",
+            "invalid-topic": "Invalid topic specified",
+            "nonclean-missingclientid": "No client ID set, using clean session"
+        }
+    }
+
+}
