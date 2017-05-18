@@ -1,11 +1,12 @@
 {
   "name": "node-red-contrib-sts-mqtt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simplified version of the Node-RED MQTT node for Sense tecnic MQTT platform",
   "contributors": [
     {
     "name": "Michael Qiu"
-    },    {
+    },    
+    {
       "name": "Nick O'Leary"
     },
     {
