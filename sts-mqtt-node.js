@@ -20,18 +20,17 @@ module.exports = function(RED) {
   var isUtf8 = require('is-utf8');
 
   // Load settings from Node-RED settings file
+
+  var DEFAULT_HOST = "mqtt.sensetecnic.com";
+  var DEFAULT_PORT = 8883;
+
   try {
-    const DEFAULT_HOST = RED.settings.sensetecnic.mqtt.host;
-  } catch (err) {
-    // fallback to default values
-    const DEFAULT_HOST = "mqtt.sensetecnic.com";
-  }
+    DEFAULT_HOST = RED.settings.sensetecnic.mqtt.host;
+  } catch (err) {/* fallback to default values */}
+
   try {
-    const DEFAULT_PORT = RED.settings.sensetecnic.mqtt.port;
-  } catch (err) {
-    // fallback to default values
-    const DEFAULT_PORT = 8883;
-  }
+    DEFAULT_PORT = RED.settings.sensetecnic.mqtt.port;
+  } catch (err) {/* fallback to default values */}
 
   function matchTopic(ts,t) {
     if (ts == "#") {
